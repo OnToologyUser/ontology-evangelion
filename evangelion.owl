@@ -1,0 +1,1276 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ianmo/evangelion.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ianmo/evangelion.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/ianmo/evangelion.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="#author"/>
+        <Literal>Ian Molina Vázquez</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="#name"/>
+        <Literal>Neon Genesis Evangelion</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Neon Genesis Evangelion ontology which describes all the relations within the series</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Agenda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Angel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CEO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Child"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eva"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#God"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hobby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pilot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#School"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suborganization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Supercomputer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weapon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Worker"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAgenda"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasChild"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEva"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGoal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHobby"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPlace"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSchool"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSubcompany"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSupercomputer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVehicle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWeapon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWorker"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAgendaOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isChildOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEvaOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEventOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isGoalOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isGodOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isHobbyOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPetOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPlaceOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSchoolOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSubcompanyOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSupercomputerOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isVehicleOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isWeaponOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isWorkerOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasYear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#America"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Balthasar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#China"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eva-00"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eva-01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eva-02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eva-03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#First_impact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Geo_Front"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Germany"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Japan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lilith"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Melchior"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nerv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Second_impact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Seele"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Third_impact"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#author"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Organization"/>
+        <Class IRI="#Suborganization"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Angel"/>
+        <Class IRI="#Child"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CEO"/>
+        <Class IRI="#Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eva"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#hasWeapon"/>
+            <Class IRI="#Weapon"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IT"/>
+        <Class IRI="#Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <ObjectExactCardinality cardinality="3">
+            <ObjectProperty IRI="#hasSupercomputer"/>
+            <Class IRI="#Supercomputer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class IRI="#Child"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPet"/>
+            <Class IRI="#Pet"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasVehicle"/>
+            <Class IRI="#Vehicle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Goal"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasHobby"/>
+            <Class IRI="#Hobby"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSchool"/>
+            <Class IRI="#School"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pilot"/>
+        <Class IRI="#Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pilot"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#hasEva"/>
+            <Class IRI="#Eva"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technician"/>
+        <Class IRI="#Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Worker"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Angel"/>
+        <Class IRI="#God"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CEO"/>
+        <Class IRI="#IT"/>
+        <Class IRI="#Pilot"/>
+        <Class IRI="#Technician"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#God"/>
+        <NamedIndividual IRI="#Adam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#America"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supercomputer"/>
+        <NamedIndividual IRI="#Balthasar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supercomputer"/>
+        <NamedIndividual IRI="#Casper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#China"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eva"/>
+        <NamedIndividual IRI="#Eva-00"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eva"/>
+        <NamedIndividual IRI="#Eva-01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eva"/>
+        <NamedIndividual IRI="#Eva-02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eva"/>
+        <NamedIndividual IRI="#Eva-03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#First_impact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Place"/>
+        <NamedIndividual IRI="#Geo_Front"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Germany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#God"/>
+        <NamedIndividual IRI="#Lilith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supercomputer"/>
+        <NamedIndividual IRI="#Melchior"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Suborganization"/>
+        <NamedIndividual IRI="#Nerv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#Second_impact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organization"/>
+        <NamedIndividual IRI="#Seele"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Spain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#Third_impact"/>
+    </ClassAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAgenda"/>
+        <ObjectProperty IRI="#isAgendaOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasChild"/>
+        <ObjectProperty IRI="#isChildOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasEva"/>
+        <ObjectProperty IRI="#isEvaOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasEvent"/>
+        <ObjectProperty IRI="#isEventOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasGoal"/>
+        <ObjectProperty IRI="#isGoalOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasGod"/>
+        <ObjectProperty IRI="#isGodOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasHobby"/>
+        <ObjectProperty IRI="#isHobbyOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPet"/>
+        <ObjectProperty IRI="#isPetOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPlace"/>
+        <ObjectProperty IRI="#isPlaceOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSchool"/>
+        <ObjectProperty IRI="#isSchoolOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSubcompany"/>
+        <ObjectProperty IRI="#isSubcompanyOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSupercomputer"/>
+        <ObjectProperty IRI="#isSupercomputerOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasVehicle"/>
+        <ObjectProperty IRI="#isVehicleOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasWeapon"/>
+        <ObjectProperty IRI="#isWeaponOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasWorker"/>
+        <ObjectProperty IRI="#isWorkerOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAgenda"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasChild"/>
+        <Class IRI="#God"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEva"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEva"/>
+        <Class IRI="#Pilot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEvent"/>
+        <Class IRI="#Agenda"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEvent"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEvent"/>
+        <Class IRI="#Suborganization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGoal"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGod"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGod"/>
+        <Class IRI="#Suborganization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHobby"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPet"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPlace"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPlace"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPlace"/>
+        <Class IRI="#Suborganization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSchool"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSubcompany"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSupercomputer"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSupercomputer"/>
+        <Class IRI="#Suborganization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVehicle"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWeapon"/>
+        <Class IRI="#Eva"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWorker"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWorker"/>
+        <Class IRI="#Suborganization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAgendaOf"/>
+        <Class IRI="#Agenda"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isChildOf"/>
+        <Class IRI="#Child"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isEvaOf"/>
+        <Class IRI="#Eva"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isEventOf"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isGoalOf"/>
+        <Class IRI="#Goal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isGodOf"/>
+        <Class IRI="#God"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isHobbyOf"/>
+        <Class IRI="#Hobby"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPetOf"/>
+        <Class IRI="#Pet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPlaceOf"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSchoolOf"/>
+        <Class IRI="#School"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSubcompanyOf"/>
+        <Class IRI="#Suborganization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSupercomputerOf"/>
+        <Class IRI="#Supercomputer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isVehicleOf"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isWeaponOf"/>
+        <Class IRI="#Weapon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isWorkerOf"/>
+        <Class IRI="#Worker"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAgenda"/>
+        <Class IRI="#Agenda"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasChild"/>
+        <Class IRI="#Child"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEva"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Eva-01"/>
+            <NamedIndividual IRI="#Eva-02"/>
+            <NamedIndividual IRI="#Eva-03"/>
+        </ObjectOneOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEvent"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGoal"/>
+        <Class IRI="#Goal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGod"/>
+        <Class IRI="#God"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHobby"/>
+        <Class IRI="#Hobby"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPet"/>
+        <Class IRI="#Pet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPlace"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSchool"/>
+        <Class IRI="#School"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubcompany"/>
+        <Class IRI="#Suborganization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSupercomputer"/>
+        <Class IRI="#Supercomputer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVehicle"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWeapon"/>
+        <Class IRI="#Weapon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWorker"/>
+        <Class IRI="#Worker"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAgendaOf"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isChildOf"/>
+        <Class IRI="#God"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEvaOf"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEvaOf"/>
+        <Class IRI="#Pilot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEventOf"/>
+        <Class IRI="#Agenda"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEventOf"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEventOf"/>
+        <Class IRI="#Suborganization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isGoalOf"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isGodOf"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isGodOf"/>
+        <Class IRI="#Suborganization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isHobbyOf"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPetOf"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPlaceOf"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPlaceOf"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPlaceOf"/>
+        <Class IRI="#Suborganization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSchoolOf"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSubcompanyOf"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSupercomputerOf"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSupercomputerOf"/>
+        <Class IRI="#Suborganization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isVehicleOf"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isWeaponOf"/>
+        <Class IRI="#Eva"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isWorkerOf"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isWorkerOf"/>
+        <Class IRI="#Suborganization"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAge"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasYear"/>
+        <Class IRI="#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAge"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasYear"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1985</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2025</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>An organization with an agenda that has an event also has that event</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Org-hasEvent</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasAgenda"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasEvent"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasEvent"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>If a suborganization has an agenda, the parent organization has the same agenda</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Org-hasAgenda</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasAgenda"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isSubcompanyOf"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasAgenda"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>If a suborganization has gods, the parent organization also have them</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Org-hasGod</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasGod"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isSubcompanyOf"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasGod"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Agenda</IRI>
+        <Literal>Main goal of the organization/suborganization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Angel</IRI>
+        <Literal>God sent entity to retrieve it&apos;s body and put in motion an event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CEO</IRI>
+        <Literal>Director of the organization/suborganization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Child</IRI>
+        <Literal>Entity born of each God</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Country</IRI>
+        <Literal>Country in which takes place the action</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Country</IRI>
+        <Literal>http://dbpedia.org/resource/Country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eva</IRI>
+        <Literal>Robot built by the organization/suborganization to defeat the Angels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Event</IRI>
+        <Literal>Event happened in the past, done by an organization/suborganization, or the end agenda of one of them</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Event</IRI>
+        <Literal>http://dbpedia.org/resource/Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Goal</IRI>
+        <Literal>Goal of a person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Goal</IRI>
+        <Literal>http://dbpedia.org/resource/Goal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#God</IRI>
+        <Literal>Divine entities divided in half and thrown in the space</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hobby</IRI>
+        <Literal>Hobby of a person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Hobby</IRI>
+        <Literal>http://dbpedia.org/resource/Hobby</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IT</IRI>
+        <Literal>IT team of the organization/suborganization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Organization</IRI>
+        <Literal>Group of people that works towards a main goal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Organization</IRI>
+        <Literal>http://dbpedia.org/resource/Organization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Person</IRI>
+        <Literal>Individuals from the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Person</IRI>
+        <Literal>http://dbpedia.org/resource/Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pet</IRI>
+        <Literal>Pet of a person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Pet</IRI>
+        <Literal>http://dbpedia.org/resource/Pet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pilot</IRI>
+        <Literal>Pilots of the organization/suborganization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Place</IRI>
+        <Literal>Location of the country in which each event happens</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Place</IRI>
+        <Literal>http://dbpedia.org/resource/Place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#School</IRI>
+        <Literal>School which a person attends</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#School</IRI>
+        <Literal>http://dbpedia.org/resource/School</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Suborganization</IRI>
+        <Literal>Suborganization of the main organization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Supercomputer</IRI>
+        <Literal>Supercomputer of the organization/suborganization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Technician</IRI>
+        <Literal>Technicians team of the organization/suborganization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vehicle</IRI>
+        <Literal>Transport mean of a person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Vehicle</IRI>
+        <Literal>http://dbpedia.org/resource/Vehicle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Weapon</IRI>
+        <Literal>Weapons used by the Eva to fight the Angels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Weapon</IRI>
+        <Literal>http://dbpedia.org/resource/Weapon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Worker</IRI>
+        <Literal>Person that works for an organization/suborganization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAge</IRI>
+        <Literal>Age of the Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAgenda</IRI>
+        <Literal>Which organization has this agenda</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasChild</IRI>
+        <Literal>What child does the God have</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasEva</IRI>
+        <Literal>Which Eva&apos;s are of which organization or pilot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasEvent</IRI>
+        <Literal>Which event is from the organization or agenda</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasGoal</IRI>
+        <Literal>What goal has the person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasGod</IRI>
+        <Literal>Which God has the organization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasHobby</IRI>
+        <Literal>What hobby has the person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPet</IRI>
+        <Literal>What pet has the person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPlace</IRI>
+        <Literal>Which place has the organization or country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSchool</IRI>
+        <Literal>What school do the person goes to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSubcompany</IRI>
+        <Literal>Which company has this as subcompany</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSupercomputer</IRI>
+        <Literal>Which supercomputer is from which organization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasVehicle</IRI>
+        <Literal>What vehicle does the person have</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWeapon</IRI>
+        <Literal>Which Eva has the weapon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWorker</IRI>
+        <Literal>Which organization has this worker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasYear</IRI>
+        <Literal>Year in which happened the event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isAgendaOf</IRI>
+        <Literal>Of which organization is the agenda</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isChildOf</IRI>
+        <Literal>Of which God the person is child of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isEvaOf</IRI>
+        <Literal>Of which organization or pilot is the Eva</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isEventOf</IRI>
+        <Literal>Of which agenda or organization is the event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isGoalOf</IRI>
+        <Literal>Of what person the goal is</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isGodOf</IRI>
+        <Literal>Of which organization is the God</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isHobbyOf</IRI>
+        <Literal>Of what person is the hobby</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isPetOf</IRI>
+        <Literal>Of what person is the pet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isPlaceOf</IRI>
+        <Literal>Of which organization or country is the space</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isSchoolOf</IRI>
+        <Literal>To what person/s es linked the School</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isSubcompanyOf</IRI>
+        <Literal>Of which company is this one a subcompany</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isSupercomputerOf</IRI>
+        <Literal>Of which organization is the supercomputer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isVehicleOf</IRI>
+        <Literal>Of what person is the vehicle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isWeaponOf</IRI>
+        <Literal>Of which Eva is the weapon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isWorkerOf</IRI>
+        <Literal>Of which organization is the worker</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
